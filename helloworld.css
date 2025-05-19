@@ -1,0 +1,23 @@
+.hello-world {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hello, .world {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.hello {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.world {
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+}
